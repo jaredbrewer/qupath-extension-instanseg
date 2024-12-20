@@ -59,7 +59,7 @@ class InstanSegPreferences {
      * @return
      */
     private static String getDefaultDevice() {
-        if (GeneralTools.isMac() && "aarch64".equals(System.getProperty("os.arch"))) {
+        if (GeneralTools.isMac()) {
             return "mps";
         } else {
             return "cpu";
