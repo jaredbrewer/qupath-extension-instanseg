@@ -30,7 +30,7 @@ public class InstanSegExtension implements QuPathExtension, GitHubProject {
 	private static final Logger logger = LoggerFactory.getLogger(InstanSegExtension.class);
 	private static final ResourceBundle resources = ResourceBundle.getBundle("qupath.ext.instanseg.ui.strings");
 
-	private static final String EXTENSION_NAME = "InstanSeg";
+	private static final String EXTENSION_NAME = "InstanSeg (MPS)";
 
 	private static final String EXTENSION_DESCRIPTION = "Use InstanSeg deep learning models for inference in QuPath";
 
